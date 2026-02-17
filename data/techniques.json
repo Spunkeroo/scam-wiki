@@ -1,0 +1,82 @@
+[
+  {
+    "id": "rug-pull",
+    "name": "Rug Pull",
+    "icon": "🪤",
+    "summary": "Developers create a token or NFT project, hype it up, then drain all liquidity or funds and disappear.",
+    "howItWorks": "1. Create a token or NFT collection with a compelling narrative\n2. Build hype through social media, influencer partnerships, and community building\n3. Attract investors who buy in, driving up the price or generating mint revenue\n4. Drain the liquidity pool or treasury wallet\n5. Delete social media, abandon the project, and disappear with the funds\n\nSmart contract rug pulls may include hidden functions that allow only the creator to sell, or backdoors that let them mint unlimited tokens.",
+    "redFlags": ["Anonymous or pseudonymous team", "No code audit from reputable firm", "Selling restrictions (you can buy but can't sell)", "Liquidity not locked or locked for very short period", "Unrealistic promises and roadmap", "Pressure to buy quickly (FOMO tactics)", "No real utility or working product"],
+    "exampleScams": [3, 4, 11],
+    "prevention": "Always check if liquidity is locked using tools like DexScreener or RugDoc. Verify team identities. Read the smart contract or check audit reports. Be skeptical of projects with anonymous teams and unrealistic promises. Never invest more than you can afford to lose."
+  },
+  {
+    "id": "ponzi-scheme",
+    "name": "Ponzi Scheme",
+    "icon": "🔺",
+    "summary": "An investment fraud where returns for existing investors are paid using funds from new investors, rather than from actual profits.",
+    "howItWorks": "1. Operator promises high, consistent returns with little or no risk\n2. Early investors receive impressive payouts (funded by later investors)\n3. Satisfied early investors recruit friends and family, growing the pool\n4. The operator uses new money to pay old investors while skimming off the top\n5. As long as new money flows in faster than payouts, the scheme survives\n6. When new investment slows or too many people try to withdraw, the scheme collapses\n\nCrypto Ponzi schemes often disguise themselves as trading bots, lending platforms, or yield farming protocols.",
+    "redFlags": ["Guaranteed high returns with no risk", "Consistent returns regardless of market conditions", "Unregistered investments with secretive strategies", "Difficulty receiving payments or cashing out", "Overly complex or vague business model", "Pressure to recruit new investors (MLM structure)", "No independent verification of claimed profits"],
+    "exampleScams": [1, 2, 17, 18],
+    "prevention": "If returns seem too good to be true, they are. Legitimate investments carry risk and don't guarantee fixed returns. Check if the investment is registered with regulators (SEC, FCA). Ask for audited financial statements. Be wary of any investment that relies on recruiting new members."
+  },
+  {
+    "id": "phishing",
+    "name": "Phishing",
+    "icon": "🎣",
+    "summary": "Fraudulent communications (emails, websites, messages) designed to trick victims into revealing sensitive information like passwords, seed phrases, or private keys.",
+    "howItWorks": "1. Attacker creates a convincing replica of a legitimate website, email, or app\n2. Victim receives a message creating urgency (account compromised, verify identity, claim reward)\n3. Victim clicks a link and enters sensitive information on the fake site\n4. Attacker captures the credentials and uses them to drain accounts\n\nIn crypto, phishing typically targets wallet seed phrases and private keys. Attackers create fake MetaMask popups, clone DeFi sites, or impersonate support teams.",
+    "redFlags": ["Unsolicited emails or messages asking for credentials", "Slight misspellings in URLs (metamask.lo instead of metamask.io)", "Urgency and pressure to act immediately", "Requests for seed phrases or private keys (legitimate services NEVER ask for these)", "Too-good-to-be-true offers or airdrops", "Generic greetings instead of your name", "Suspicious sender email addresses"],
+    "exampleScams": [20],
+    "prevention": "Never share your seed phrase or private keys with anyone. Bookmark official sites and always navigate directly. Enable 2FA on all accounts. Use hardware wallets for significant holdings. Verify URLs carefully before entering any information. Be skeptical of unsolicited messages."
+  },
+  {
+    "id": "pig-butchering",
+    "name": "Pig Butchering",
+    "icon": "🐷",
+    "summary": "Long-con romance/investment scam where victims are 'fattened up' with a fake relationship before being guided into fraudulent investments that steal their savings.",
+    "howItWorks": "1. Scammer initiates contact on dating apps, social media, or via 'wrong number' texts\n2. Over weeks or months, they build a romantic or friendly relationship (the 'fattening')\n3. Scammer casually mentions their successful crypto/forex investments\n4. Victim becomes interested; scammer guides them to a fake trading platform\n5. Initial small investments show impressive (fake) returns\n6. Victim invests increasingly large amounts, sometimes borrowing money\n7. When victim tries to withdraw, the platform demands 'taxes' or 'fees'\n8. Eventually the scammer and platform disappear with all funds (the 'butchering')\n\nMany scammers are themselves trafficking victims, forced to work in compounds in Southeast Asia.",
+    "redFlags": ["Attractive stranger contacts you out of the blue", "Relationship progresses quickly and seems too perfect", "They casually mention profitable investments", "They guide you to an unknown trading platform", "Platform shows unusually high returns", "You can't withdraw without paying 'taxes' or 'fees'", "They discourage you from telling friends or family"],
+    "exampleScams": [],
+    "prevention": "Be extremely cautious of investment advice from online romantic interests. Never invest on platforms recommended by people you haven't met in person. Verify any trading platform through regulatory databases. If someone you met online wants you to invest, it's almost certainly a scam."
+  },
+  {
+    "id": "mlm",
+    "name": "Multi-Level Marketing (MLM) / Pyramid Scheme",
+    "icon": "🔻",
+    "summary": "Business structure where participants earn primarily by recruiting new members rather than selling actual products. When recruitment is the main revenue source, it's a pyramid scheme.",
+    "howItWorks": "1. Company sells a product or service, but the real money is in recruitment\n2. Participants buy inventory or pay membership fees to join\n3. They earn commissions for recruiting new members who also buy in\n4. Recruiters earn a percentage of their recruits' sales and their recruits' recruits\n5. The structure ensures only those at the top profit while the majority lose money\n6. Eventually the market saturates and recruitment slows, collapsing the bottom levels\n\nCrypto MLMs add tokens or mining contracts as the 'product,' but the economics are the same.",
+    "redFlags": ["Income primarily comes from recruiting, not product sales", "Required inventory purchases or large buy-in fees", "Complex commission structures with multiple levels", "Income testimonials that seem unrealistic", "Emphasis on 'building your team' over selling products", "Products are overpriced compared to alternatives", "Pressure to recruit friends and family"],
+    "exampleScams": [2, 18],
+    "prevention": "Research the company's revenue breakdown — if most income comes from recruitment rather than product sales to end consumers, avoid it. Check the FTC's guidelines on MLMs vs pyramid schemes. Be skeptical of income claims and ask for average participant earnings data."
+  },
+  {
+    "id": "fake-guru",
+    "name": "Fake Guru / Course Scam",
+    "icon": "🎓",
+    "summary": "Self-proclaimed experts sell expensive courses, mentorship, or signals services promising wealth, while their real income comes from selling the courses themselves.",
+    "howItWorks": "1. 'Guru' rents luxury cars, houses, and jets for social media content\n2. They create the illusion of wealth from trading, crypto, dropshipping, or real estate\n3. They offer 'exclusive' courses, masterclasses, or mentorship programs at high prices ($997-$5,000+)\n4. Course content is typically freely available information repackaged\n5. Students who fail are told they 'didn't follow the system' or need the premium tier\n6. Some operate referral programs where students promote the course for commissions\n7. The guru's actual income comes almost entirely from course sales, not the skill they teach",
+    "redFlags": ["Flaunting rented luxury lifestyle on social media", "Vague claims about how they made their money", "Testimonials from students who are actually affiliates", "No verifiable track record of trading/investing success", "High-pressure sales tactics with 'limited spots' or countdown timers", "Money-back guarantee with impossible conditions", "More time marketing the course than demonstrating the skill"],
+    "exampleScams": [],
+    "prevention": "Search '[guru name] scam' or '[guru name] review' before buying any course. Check if their wealth actually came from the skill they teach or from selling courses. Look for verified trading records, not screenshots. Most legitimate knowledge is available for free through YouTube, blogs, and communities."
+  },
+  {
+    "id": "pump-and-dump",
+    "name": "Pump and Dump",
+    "icon": "📈",
+    "summary": "Insiders accumulate a low-cap asset, artificially inflate its price through coordinated hype, then sell their holdings at the peak, crashing the price on remaining holders.",
+    "howItWorks": "1. Organizers secretly accumulate large positions in a low-liquidity token\n2. They launch a coordinated marketing campaign (paid influencers, social media bots, Telegram groups)\n3. FOMO drives retail investors to buy, pushing the price up rapidly\n4. At the peak, organizers dump their entire position\n5. Price crashes as selling pressure overwhelms buyers\n6. Retail investors are left holding worthless tokens\n\nCrypto pump and dumps are especially effective due to low liquidity, 24/7 markets, and minimal regulation.",
+    "redFlags": ["Sudden massive social media buzz about an obscure token", "Coordinated shilling in multiple Telegram/Discord groups", "Influencers suddenly promoting the same token", "Extreme price increase with no fundamental catalyst", "Low market cap and trading volume before the pump", "Anonymous team behind the project", "Messages urging you to 'buy now before it's too late'"],
+    "exampleScams": [5, 10],
+    "prevention": "Never buy based on social media hype alone. If you're hearing about a token from multiple random sources at once, it's likely coordinated. Check on-chain data for whale accumulation before the pump. Avoid tokens with concentrated ownership. If it's pumping parabolically with no real news, the dump is coming."
+  },
+  {
+    "id": "sim-swap",
+    "name": "SIM Swap",
+    "icon": "📱",
+    "summary": "Attackers convince your mobile carrier to transfer your phone number to their SIM card, giving them access to your SMS-based two-factor authentication and accounts.",
+    "howItWorks": "1. Attacker gathers personal information about the victim (social engineering, data breaches, social media)\n2. They contact the victim's mobile carrier, impersonating the victim\n3. They convince the carrier to port the phone number to a new SIM card\n4. Victim's phone loses service as the attacker's phone receives their calls and texts\n5. Attacker uses SMS-based 2FA codes to reset passwords on email, crypto exchanges, and banks\n6. They drain financial accounts and crypto wallets before the victim realizes what happened\n\nSome attacks involve bribing carrier employees (insider threat) rather than social engineering.",
+    "redFlags": ["Sudden loss of cell phone service", "Unable to make calls or send texts", "Notifications about account changes you didn't make", "Password reset emails you didn't request", "Unknown login alerts from your accounts"],
+    "exampleScams": [],
+    "prevention": "Use authenticator apps (Google Authenticator, Authy) instead of SMS for 2FA. Set a PIN or passphrase with your mobile carrier. Use hardware security keys for critical accounts. Don't share personal information on social media. Consider using a Google Voice number for sensitive accounts."
+  }
+]

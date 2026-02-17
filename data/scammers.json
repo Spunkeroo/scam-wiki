@@ -1,0 +1,92 @@
+[
+  {
+    "id": "satish-kumbhani",
+    "name": "Satish Kumbhani",
+    "aliases": [],
+    "description": "Founder of BitConnect. Indicted by DOJ in February 2022 for orchestrating a $2.4 billion global Ponzi scheme through the BitConnect cryptocurrency lending platform.",
+    "status": "Fugitive",
+    "scams": [1],
+    "sources": ["https://www.justice.gov/opa/pr/bitconnect-founder-indicted-global-24-billion-cryptocurrency-scheme"]
+  },
+  {
+    "id": "glenn-arcaro",
+    "name": "Glenn Arcaro",
+    "aliases": [],
+    "description": "Top US promoter of BitConnect. Pleaded guilty to wire fraud conspiracy and sentenced to 38 months in prison for his role in the $2.4 billion Ponzi scheme.",
+    "status": "Convicted",
+    "scams": [1],
+    "sources": ["https://www.justice.gov/opa/pr/director-and-promoter-bitconnect-sentenced-38-months-prison"]
+  },
+  {
+    "id": "ruja-ignatova",
+    "name": "Ruja Ignatova",
+    "aliases": ["Cryptoqueen"],
+    "description": "Founder of OneCoin, a $4 billion cryptocurrency Ponzi scheme. Disappeared in October 2017 and was added to the FBI's Ten Most Wanted Fugitives list in 2022. One of the most-wanted financial criminals in history.",
+    "status": "Fugitive (FBI Most Wanted)",
+    "scams": [2],
+    "sources": ["https://www.fbi.gov/wanted/topten/ruja-ignatova"]
+  },
+  {
+    "id": "karl-greenwood",
+    "name": "Karl Sebastian Greenwood",
+    "aliases": [],
+    "description": "Co-founder of OneCoin. Sentenced to 20 years in prison in September 2023 for his role in the multi-billion dollar fraud.",
+    "status": "Convicted",
+    "scams": [2],
+    "sources": ["https://www.justice.gov/usao-sdny/pr/onecoin-co-founder-karl-sebastian-greenwood-sentenced-20-years-prison"]
+  },
+  {
+    "id": "sam-bankman-fried",
+    "name": "Sam Bankman-Fried",
+    "aliases": ["SBF"],
+    "description": "Founder of FTX and Alameda Research. Convicted on 7 counts of fraud and conspiracy for misusing billions in customer funds. Sentenced to 25 years in federal prison in March 2024.",
+    "status": "Convicted (25 years)",
+    "scams": [7],
+    "sources": ["https://www.justice.gov/usao-sdny/pr/united-states-attorney-announces-charges-against-ftx-founder-samuel-bankman-fried"]
+  },
+  {
+    "id": "caroline-ellison",
+    "name": "Caroline Ellison",
+    "aliases": [],
+    "description": "Former CEO of Alameda Research and key cooperating witness in the FTX case. Pleaded guilty to fraud charges and testified against Sam Bankman-Fried. Sentenced to 2 years in prison.",
+    "status": "Convicted (2 years)",
+    "scams": [7],
+    "sources": ["https://www.justice.gov/usao-sdny/pr/former-alameda-research-ceo-caroline-ellison-sentenced-two-years-prison"]
+  },
+  {
+    "id": "do-kwon",
+    "name": "Do Kwon",
+    "aliases": ["Kwon Do-hyung"],
+    "description": "Co-founder of Terraform Labs and creator of Terra/LUNA and UST. The collapse of UST wiped out $40 billion. Arrested in Montenegro in 2023 with a fake passport. SEC found Terraform Labs liable for fraud.",
+    "status": "Arrested",
+    "scams": [6],
+    "sources": ["https://www.sec.gov/litigation/complaints/2023/comp-pr2023-32.pdf"]
+  },
+  {
+    "id": "alex-mashinsky",
+    "name": "Alex Mashinsky",
+    "aliases": [],
+    "description": "Founder and CEO of Celsius Network. Arrested in July 2023 and charged with securities fraud, commodities fraud, and wire fraud for misleading customers about Celsius's financial health while secretly selling his own CEL tokens.",
+    "status": "Convicted",
+    "scams": [8],
+    "sources": ["https://www.justice.gov/usao-sdny/pr/celsius-founder-alex-mashinsky-arrested-and-charged-fraud"]
+  },
+  {
+    "id": "faruk-ozer",
+    "name": "Faruk Fatih Ozer",
+    "aliases": [],
+    "description": "Founder and CEO of Thodex, Turkey's largest crypto exchange exit scam. Fled Turkey in April 2021 with an estimated $2 billion in customer funds. Caught in Albania and extradited. Sentenced to 11,196 years in prison.",
+    "status": "Convicted (11,196 years)",
+    "scams": [16],
+    "sources": ["https://www.reuters.com/technology/turkish-crypto-exchange-thodex-founder-jailed-11196-years-2024-09-08/"]
+  },
+  {
+    "id": "logan-paul",
+    "name": "Logan Paul",
+    "aliases": [],
+    "description": "YouTuber and influencer behind CryptoZoo, a failed play-to-earn NFT game. Promised revolutionary game mechanics but never delivered a functioning product despite millions raised from supporters.",
+    "status": "Under Scrutiny",
+    "scams": [19],
+    "sources": ["https://www.youtube.com/watch?v=386p68_lDHA"]
+  }
+]
